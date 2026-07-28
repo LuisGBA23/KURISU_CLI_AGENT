@@ -11,7 +11,7 @@ def cargar_historial(path: str):
     if os.path.exists(path) and os.path.getsize(path) > 0: 
         with open(path, 'rb') as f:
             return pickle.load(f)
-    return {}
+    return []
 
 def clear_history(chat_list, canal):
     chat_list[canal]= []

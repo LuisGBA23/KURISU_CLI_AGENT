@@ -198,6 +198,3 @@ def html_parser(html: str,) -> dict:
         "texto": texto if texto else None,
         "links": new_links if new_links else None
     }
-
-req= make_http_request("https://es.wikipedia.org/wiki/Steins;Gate")
-print(html_parser(req['body']))

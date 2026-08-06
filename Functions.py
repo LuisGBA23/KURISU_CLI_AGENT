@@ -147,7 +147,7 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any
     3- *headers*: (dict, opcional) Un diccionario de encabezados HTTP a incluir en la solicitud.  
     4- *body*: (Any, opcional) El cuerpo de la solicitud para métodos como 'POST' o 'PUT'.  
     5- *timeout*: (integer) El tiempo máximo que la función esperará a una respuesta"""
-    if headers and isinstance(headers, dict):
+    if isinstance(headers, dict):
         headers["User-Agent"]= "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     
     try: 

@@ -79,4 +79,14 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
 *   `requirements.txt`: Lista de dependencias del proyecto.
 *   `test.py`: (Detectado) Archivo para pruebas o experimentación.
 
+## NOTA:  
+
+*   Si quieres ejecutar este agente desde cualquier parte en la     terminal, crea un archivo .bat como este:  
+    ```bash
+    @echo off
+    
+    call *ruta absoluta al script de activación del entorno virtual* 
+    python *ruta absoluta al archivo main.py*
+    ```  
+    Y guardalo dentro de la carpeta C:\Windows (requiere permisos de administrador) con un nombre fácil ej: *kurisu*. Ahora puedes llamar al agente escribiendo el nombre del script .bat en la terminal
 ---

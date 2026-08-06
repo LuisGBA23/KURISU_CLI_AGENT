@@ -9,7 +9,7 @@ Este repositorio contiene un agente de inteligencia artificial interactivo basad
 *   **Gestión y Edición de Archivos:** Herramientas para leer, escribir y realizar ediciones avanzadas en archivos (añadir contenido, insertar/borrar líneas, reemplazar texto).
 *   **Control de Versiones Git:** Integración para realizar operaciones de `commit` en repositorios Git, facilitando la gestión del código fuente.
 *   **Personalidad Definida:** Configurado con instrucciones de sistema para guiar el comportamiento y tono del agente.
-*   **Gestión de Claves API:** Soporte para múltiples claves API de Gemini, con un mecanismo para alternar entre ellas en caso de errores de servidor (como límites de cuota).
+*   **Gestión de Claves API:** Soporte para múltiples claves API de Gemini.
 *   **Entorno Aislado:** Utiliza un entorno virtual de Python (`venv`) para gestionar las dependencias del proyecto de forma limpia y aislada.
 
 ## Tecnologías Utilizadas
@@ -40,7 +40,7 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
     ```
 
 3.  **Instalar Dependencias:**
-    Instala todas las librerías necesarias utilizando el archivo `requirements.txt` generado.
+    Instala todas las librerías necesarias utilizando el archivo `requirements.txt`.
     ```bash
     pip install -r requirements.txt
     ```

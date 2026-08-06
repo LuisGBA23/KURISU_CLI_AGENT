@@ -38,9 +38,9 @@ def get_context() -> dict[str, str]:
     context= {
         "directorio_actual" : os.getcwd(),
         "usuario_actual" : os.getlogin(),
-        "sistema_operativo" : f"{sys.platform} (Ubuntu 26.04 LTS)",
+        "sistema_operativo" : f"{sys.platform} {platform.release()}",
         "arquitectura_cpu" : platform.machine(),
-        "entorno_shell" : os.getenv('SHELL')
+        "entorno_shell" : os.getenv('SHELL') if sys.platform != 'win32' else os.getenv('COMSPEC'),
     }
 
     return context

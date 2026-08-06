@@ -1,8 +1,6 @@
 from typing import Any
 import subprocess
 from colorama import Fore, Style
-import requests
-from bs4 import BeautifulSoup
 
 def command_exec(comando: str) -> str: 
     '''## Ejecuta un comando en la terminal del sistema'''

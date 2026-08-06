@@ -1,5 +1,3 @@
-from google import genai
-from google.genai import types
 import pickle
 import os
 
@@ -12,6 +10,3 @@ def cargar_historial(path: str):
         with open(path, 'rb') as f:
             return pickle.load(f)
     return []
-
-def clear_history(chat_list, canal):
-    chat_list[canal]= []

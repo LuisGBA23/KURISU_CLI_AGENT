@@ -1,7 +1,8 @@
 from typing import Any
 import subprocess
 from colorama import Fore, Style
-import requests
+import requests 
+from bs4 import BeautifulSoup
 
 def command_exec(comando: str) -> str: 
     '''## Ejecuta un comando en la terminal del sistema'''
@@ -147,6 +148,7 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any
     3- *headers*: (dict, opcional) Un diccionario de encabezados HTTP a incluir en la solicitud.  
     4- *body*: (Any, opcional) El cuerpo de la solicitud para métodos como 'POST' o 'PUT'.  
     5- *timeout*: (integer) El tiempo máximo que la función esperará a una respuesta"""
+
     if isinstance(headers, dict):
         headers["User-Agent"]= "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     
@@ -176,3 +178,26 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any
             "body": None,
             "error": str(e)
         }
+
+def html_parser(html: str,) -> dict:
+    '''## Parsea código en HTML para obtener datos específicos.  
+    ### Argumentos:  
+    1- *html*: (string) El texto plano a parsear en html.'''
+
+    soup= BeautifulSoup(html, 'html.parser')
+
+    texto= soup.get_text(strip= True, separator= ' ')
+    links= soup.find_all(attrs= {'href' : True})
+    new_links= []
+    for link in links: 
+        ref= link.get('href')
+        titulo= link.get('title') if link.get('title') else str(ref)
+        new_links.append({titulo : ref})
+
+    return {
+        "texto": texto if texto else None,
+        "links": new_links if new_links else None
+    }
+
+req= make_http_request("https://es.wikipedia.org/wiki/Steins;Gate")
+print(html_parser(req['body']))

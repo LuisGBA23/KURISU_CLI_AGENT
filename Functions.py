@@ -140,6 +140,8 @@ def do_a_commit(ruta: str, mensaje: str) -> str:
     except Exception as e:
         return f"Error inesperado: {e}"
 
+_last_html_content = ""
+
 def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any= None, timeout: int= 30) -> Any:
     """## Realiza una solicitud HTTP a una URL específica.
     ### Argumentos:
@@ -165,10 +167,23 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any
             return f"Error: Método HTTP '{metodo}' no soportado."
         response.raise_for_status()  # Lanza un error para códigos de estado HTTP 4xx/5xx
 
+        # Guardamos el HTML completo en caché para que html_parser lo pueda leer de forma eficiente
+        global _last_html_content
+        _last_html_content = response.text
+
+        # Si el contenido es HTML, evitamos enviar todo el texto al modelo para no saturar el contexto
+        content_type = response.headers.get("Content-Type", "").lower()
+        is_html = "text/html" in content_type or response.text.lstrip().startswith(("<html", "<!doctype html", "<!DOCTYPE html"))
+        
+        if is_html:
+            body_content = f"[HTML Content Cached. Size: {len(response.text)} characters. Call html_parser() (without arguments) to extract text and links without sending the raw HTML.]"
+        else:
+            body_content = response.text
+
         return {
             "status_code": response.status_code,
             "headers": dict(response.headers),
-            "body": response.text,
+            "body": body_content,
             "error": response.reason 
         }
     except requests.exceptions.RequestException as e:
@@ -179,12 +194,22 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any
             "error": str(e)
         }
 
-def html_parser(html: str,) -> dict:
-    '''## Parsea código en HTML para obtener datos específicos.  
+def html_parser(html: str = None) -> dict:
+    '''## Parsea código en HTML para obtener datos específicos (texto y enlaces).  
     ### Argumentos:  
-    1- *html*: (string) El texto plano a parsear en html.'''
+    1- *html*: (string, opcional) El texto plano en HTML a parsear. Si se omite o es None, se utilizará automáticamente el HTML de la última solicitud HTTP realizada con make_http_request (¡usa esta opción sin argumentos para ahorrar tokens y mejorar velocidad!).'''
 
-    soup= BeautifulSoup(html, 'html.parser')
+    global _last_html_content
+    html_to_parse = html if html else _last_html_content
+
+    if not html_to_parse:
+        return {
+            "texto": None,
+            "links": None,
+            "error": "No hay contenido HTML para parsear. Proporciona el argumento 'html' o realiza una solicitud HTTP primero."
+        }
+
+    soup= BeautifulSoup(html_to_parse, 'html.parser')
 
     texto= soup.get_text(strip= True, separator= ' ')
     links= soup.find_all(attrs= {'href' : True})

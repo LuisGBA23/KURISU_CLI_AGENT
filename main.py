@@ -66,6 +66,8 @@ while True:
 
         already_printed_part= ""
         for chunk in chat.send_message_stream(f"CONTEXTO:\n {get_context()}\n\n SOLICITUD:\n {inp}"): 
+            if not chunk.candidates or not chunk.candidates[0].content or not chunk.candidates[0].content.parts:
+                continue
             for part in chunk.candidates[0].content.parts: 
                 if part.thought: continue
                 if part.text and part.text != already_printed_part:

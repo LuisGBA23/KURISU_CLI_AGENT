@@ -63,6 +63,16 @@ while True:
         if inp.lower() == "byebye": 
             print(Fore.RESET)
             break
+        elif inp.lower() in ["clear", "clear history", "clean", "limpiar"]:
+            if os.path.exists(HISTORIAL_PATH):
+                try:
+                    os.remove(HISTORIAL_PATH)
+                    print(Fore.GREEN + "Historial de chat borrado con éxito." + Fore.RESET)
+                except Exception as e:
+                    print(Fore.RED + f"No se pudo borrar el historial: {e}" + Fore.RESET)
+            else:
+                print(Fore.YELLOW + "No hay historial para borrar." + Fore.RESET)
+            continue
 
         already_printed_part= ""
         for chunk in chat.send_message_stream(f"CONTEXTO:\n {get_context()}\n\n SOLICITUD:\n {inp}"): 
@@ -82,6 +92,12 @@ while True:
         Chats_history.guardar_historial(HISTORIAL_PATH, chat_list= hist)
 
         client.close()
+    except genai.errors.APIError as e:
+        if "429" in str(e) or "ResourceExhausted" in str(e):
+            print(Fore.RED + Style.BRIGHT + "\n[Error 429: Límite de solicitudes o tokens excedido. El historial de chat podría estar muy pesado.]")
+            print(Fore.YELLOW + "[Sugerencia: Escribe 'clear' para borrar el historial de chat acumulado.]\n" + Style.RESET_ALL)
+        else:
+            print(Fore.RED + f"\n[Error de API: {e}]\n" + Style.RESET_ALL)
     except genai.errors.ServerError as e:
         disp_model= ( 
             "models/gemini-3.5-flash"

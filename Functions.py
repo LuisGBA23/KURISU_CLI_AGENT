@@ -139,7 +139,7 @@ def do_a_commit(ruta: str, mensaje: str) -> str:
     except Exception as e:
         return f"Error inesperado: {e}"
 
-def make_http_request(url: str, metodo: str= 'GET', headers: dict= None, body: Any= None, timeout: int= 30) -> Any:
+def make_http_request(url: str, metodo: str= 'GET', headers: dict= {}, body: Any= None, timeout: int= 30) -> Any:
     """## Realiza una solicitud HTTP a una URL específica.
     ### Argumentos:
     1- *url*: (string) La URL a la que se realizará la solicitud.  
@@ -169,4 +169,9 @@ def make_http_request(url: str, metodo: str= 'GET', headers: dict= None, body: A
             "error": response.reason 
         }
     except requests.exceptions.RequestException as e:
-        return f"Error en la solicitud HTTP: {e}"
+        return {
+            "status_code": None,
+            "headers": {},
+            "body": None,
+            "error": str(e)
+        }

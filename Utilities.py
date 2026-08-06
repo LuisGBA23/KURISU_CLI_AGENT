@@ -1,11 +1,13 @@
 import json 
 import random
+from pathlib import Path
 
-#Función para abrir un archivo y leerlo o escribirlo según el parámetro do:
 def open_file(ruta: str, do= 'read_txt', modo= 'r', values_to_dump= None): 
-    '''**do**= 'read_txt' (predeterminado), 'read_json', 'json_dump'
-
-        **modo**= 'r' (predeterminado), 'w' '''
+    '''
+        ## Función para abrir un archivo y leerlo o escribirlo según el parámetro do  
+        **do**= 'read_txt' (predeterminado), 'read_json', 'json_dump'  
+        **modo**= 'r' (predeterminado), 'w' 
+    '''
     try: 
         with open(ruta, modo, encoding='utf-8') as f: 
             if do == "read_txt": 
@@ -17,15 +19,15 @@ def open_file(ruta: str, do= 'read_txt', modo= 'r', values_to_dump= None):
     except Exception as e: 
         print(f"Error leyendo/editando el archivo {ruta}: {e}")
 
-#Elegir y retornar un valor al azar de una pool de opciones (APIs): 
-def elegir_api(lista):
+def elegir_api(lista: list[str]) -> str:
+    '''## Elegir y retornar un valor al azar de una pool de opciones (APIs)'''
     try: 
         return random.choice(lista)
     except Exception as e:
         print(f"An error ocurred while trying to choice from {lista} | {e}")
 
-#Dividir un string largo en pequeños fragmentos de cierto limite de caracteres: 
-def dividir_text(text, limit= 1000):
+def dividir_text(text: str, limit: int= 1000) -> list[str]:
+    '''## Dividir un string largo en pequeños fragmentos de cierto limite de caracteres'''
     frags= [] #se crea una lista vacía para guardar los fragmentos
     while len(text) > limit: 
         '''usamos rfind para buscar el último espacio en blanco (para no cortar palabras) dentro 
@@ -39,8 +41,8 @@ def dividir_text(text, limit= 1000):
         frags.append(text)
     return frags
 
-#Función para cambiar un atributo dentro de un archivo JSON:
-def set_attribute(attribute: str, value: str, conf_file: str):
+def set_attribute(attribute: str, value: str, conf_file: str) -> None:
+    '''## Función para cambiar un atributo dentro de un archivo JSON'''
     b_conf= open_file(conf_file, do= 'read_json')
 
     try:
@@ -58,3 +60,18 @@ def set_attribute(attribute: str, value: str, conf_file: str):
     modo= 'w', 
     values_to_dump= b_conf
     )
+
+def get_path_to_parent_dict(file_var, *extras: str) -> str: 
+    '''
+        ## Regresa el directorio padre del archivo actual y agregados (si *extras)  
+        ### (**file_var** siempre debe pasarse con el valor *\\_\\_file__*)  
+        **extras**= nombres de directorios/archivos que construyen la ruta deseada:  
+        > **ej**: para obtener "*parent_dir/directorio/archivo.txt*" -> get_path_to_parent_dict(__file__, 'directorio', 'archivo.txt')
+    '''
+    path= Path(file_var).resolve().parent
+
+    if extras: 
+        for extra in extras: 
+            path= path/extra
+
+    return path

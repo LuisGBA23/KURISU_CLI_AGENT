@@ -1,6 +1,7 @@
 from typing import Any
 import subprocess
 from colorama import Fore, Style
+import requests
 
 def command_exec(comando: str) -> str: 
     '''## Ejecuta un comando en la terminal del sistema'''
@@ -124,7 +125,7 @@ def specific_edit_files(ruta: str, modo: str, contenido: str= None, linea_num: i
 
 def do_a_commit(ruta: str, mensaje: str) -> str: 
     '''## Realiza un commit en un repositorio git
-        ### **Argumentos:**
+        ### Argumentos:
         1- **ruta**: *(string)* la ruta absoluta del repositorio git  
         2- **mensaje**: *(string)* el mensaje del commit'''
     try:
@@ -137,3 +138,35 @@ def do_a_commit(ruta: str, mensaje: str) -> str:
         return f"Error al realizar el commit: {e}"
     except Exception as e:
         return f"Error inesperado: {e}"
+
+def make_http_request(url: str, metodo: str= 'GET', headers: dict= None, body: Any= None, timeout: int= 30) -> Any:
+    """## Realiza una solicitud HTTP a una URL específica.
+    ### Argumentos:
+    1- *url*: (string) La URL a la que se realizará la solicitud.  
+    2- *metodo*: (string, opcional) El método HTTP a utilizar ('GET', 'POST', 'PUT', 'DELETE'). Por defecto es 'GET'.  
+    3- *headers*: (dict, opcional) Un diccionario de encabezados HTTP a incluir en la solicitud.  
+    4- *body*: (Any, opcional) El cuerpo de la solicitud para métodos como 'POST' o 'PUT'.  
+    5- *timeout*: (integer) El tiempo máximo que la función esperará a una respuesta"""
+    headers["User-Agent"]= "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    
+    try: 
+        if metodo.upper() == "GET": 
+            response= requests.get(url= url, headers= headers, timeout= timeout)
+        elif metodo.upper() == "POST": 
+            response= requests.post(url= url, headers= headers, data= body, timeout= timeout)
+        elif metodo.upper() == "PUT": 
+            response= requests.put(url= url, headers= headers, data= body, timeout= timeout)
+        elif metodo.upper() == "DELETE":
+            response= requests.delete(url= url, headers= headers, timeout= timeout)
+        else:
+            return f"Error: Método HTTP '{metodo}' no soportado."
+        response.raise_for_status()  # Lanza un error para códigos de estado HTTP 4xx/5xx
+
+        return {
+            "status_code": response.status_code,
+            "headers": dict(response.headers),
+            "body": response.text,
+            "error": response.reason 
+        }
+    except requests.exceptions.RequestException as e:
+        return f"Error en la solicitud HTTP: {e}"

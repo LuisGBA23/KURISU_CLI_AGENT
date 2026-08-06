@@ -20,6 +20,7 @@ REGISTRY= [
     Functions.work_with_files, 
     Functions.specific_edit_files, 
     Functions.do_a_commit,
+    Functions.make_http_request
 ]
 
 def cargar_conf(): 

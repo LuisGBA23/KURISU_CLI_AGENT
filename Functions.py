@@ -3,6 +3,7 @@ import subprocess
 from colorama import Fore, Style
 import requests 
 from bs4 import BeautifulSoup
+from ddgs import DDGS
 
 def command_exec(comando: str) -> str: 
     '''## Ejecuta un comando en la terminal del sistema'''
@@ -223,3 +224,24 @@ def html_parser(html: str = None) -> dict:
         "texto": texto if texto else None,
         "links": new_links if new_links else None
     }
+
+def busqueda_internet(query: str) -> str:
+    '''## Realiza una búsqueda web  
+    ### Argumentos:  
+    1- *query*: (string) la búsqueda a realizar'''
+    try:
+        with DDGS() as ddgs:
+            results= list(ddgs.text(query, max_results= 10))
+
+        if not results: 
+            return f"No se encontraron resultados para {query}"
+
+        format_results= []
+        for i, res in enumerate(results, 1):
+            format_results.append(
+                f"Result {i}:\nTitle: {res.get('title')}\nURL: {res.get('href')}\nSnippet: {res.get('body')}\n"
+            )
+        return "\n".join(format_results)
+        
+    except Exception as e:
+        return f"Error executing search: {str(e)}"

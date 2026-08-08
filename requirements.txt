@@ -3,3 +3,4 @@ google-genai==2.8.0
 python-dotenv==1.2.2
 requests==2.34.2
 beautifulsoup4==4.15.0
+ddgs

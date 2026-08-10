@@ -34,7 +34,6 @@ def cargar_conf():
         temperature= kurisu_config['temperature'],
         top_p= kurisu_config['top_p']
     )
-
     return kurisu_config, config_mod
 
 def get_context() -> dict[str, str]: 
@@ -45,7 +44,6 @@ def get_context() -> dict[str, str]:
         "arquitectura_cpu" : platform.machine(),
         "entorno_shell" : os.getenv('SHELL') if sys.platform != 'win32' else os.getenv('COMSPEC'),
     }
-
     return context
 
 while True:

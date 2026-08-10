@@ -6,7 +6,7 @@ import sys
 import platform
 import time
 from colorama import Fore, Style
-import Utilities, Chats_history, Functions
+import Utilities, Chats_history, Functions, Web_functions
 
 load_dotenv()
 API_LIST= os.getenv("GEMINI_KEYS").split(',')
@@ -20,9 +20,9 @@ REGISTRY= [
     Functions.work_with_files, 
     Functions.specific_edit_files, 
     Functions.do_a_commit,
-    Functions.busqueda_internet,
-    Functions.make_http_request,
-    Functions.html_parser
+    Web_functions.busqueda_internet,
+    Web_functions.make_http_request,
+    Web_functions.html_parser
 ]
 
 def cargar_conf(): 

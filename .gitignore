@@ -1,4 +1,5 @@
 .env
 *.log
 *.pkl
-.cache/
+.cache
+.\cache\playlists.json

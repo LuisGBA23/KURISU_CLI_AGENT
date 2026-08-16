@@ -8,7 +8,8 @@ load_dotenv()  # Carga las variables de entorno desde el archivo .env
 CLIENT_id= os.getenv("CLIENT_ID")
 SECRET_CLIENT= os.getenv("SECRET_CLIENT")
 REDIRECT_URI= os.getenv("REDIRECT_URI")
-if not CLIENT_id or not SECRET_CLIENT or not REDIRECT_URI:
+PLAYLIST_IDs= os.getenv("PLAYLIST_IDS").split(',')
+if not CLIENT_id or not SECRET_CLIENT or not REDIRECT_URI or not PLAYLIST_IDs:
     raise ValueError("Una o más variables de entorno no encontradas en .env")
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
@@ -17,12 +18,6 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     redirect_uri= REDIRECT_URI,
     scope= "user-modify-playback-state user-read-playback-state"
 ))
-PLAYLIST_IDs = [
-    "4qEgmGqa59hXNybtoH9p8z",
-    "2cJqD553vavH2c6BeZq4JO",
-    "14JKMxIQ70mSxGTey7Exjb",
-    "7MyY8V7R2VT9cJCYUAnEVg",
-]
 
 def obtener_disp_activo():
     devices = sp.devices()
@@ -92,7 +87,7 @@ def update_cached_songs():
 
         songs_on_playlist= {}
         for idx, item in enumerate(tracks): 
-            song= tracks[idx].get('item')
+            song= item.get('item')
             name= song.get('name') if song else None
             uri= song.get('uri') if song else None
             artists= song.get('artists', []) if song else None

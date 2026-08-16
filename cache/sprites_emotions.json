@@ -1,0 +1,524 @@
+{
+    "CRS_JLD_40000100.png": {
+        "Neutral_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLD_40000101.png": {
+        "Neutral_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000102.png": {
+        "Neutral_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000200.png": {
+        "Alegre_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca cerrada."
+    },
+    "CRS_JLD_40000201.png": {
+        "Alegre_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000202.png": {
+        "Alegre_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000300.png": {
+        "Enojada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca cerrada."
+    },
+    "CRS_JLD_40000301.png": {
+        "Enojada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000302.png": {
+        "Enojada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000400.png": {
+        "Cansada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca cerrada."
+    },
+    "CRS_JLD_40000401.png": {
+        "Cansada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000402.png": {
+        "Cansada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000500.png": {
+        "Preocupada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLD_40000501.png": {
+        "Preocupada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000502.png": {
+        "Preocupada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000600.png": {
+        "Feliz_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca cerrada."
+    },
+    "CRS_JLD_40000601.png": {
+        "Feliz_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000602.png": {
+        "Feliz_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000700.png": {
+        "Molesta_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca cerrada."
+    },
+    "CRS_JLD_40000701.png": {
+        "Molesta_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000702.png": {
+        "Molesta_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000800.png": {
+        "Avergonzada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLD_40000801.png": {
+        "Avergonzada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000802.png": {
+        "Avergonzada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000900.png": {
+        "Sorprendida_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca cerrada."
+    },
+    "CRS_JLD_40000901.png": {
+        "Sorprendida_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000902.png": {
+        "Sorprendida_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000a00.png": {
+        "Triste_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JLD_40000a01.png": {
+        "Triste_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000a02.png": {
+        "Triste_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000b00.png": {
+        "Seria_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLD_40000b01.png": {
+        "Seria_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000b02.png": {
+        "Seria_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLD_40000c00.png": {
+        "Disgustada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLD_40000c01.png": {
+        "Disgustada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLD_40000c02.png": {
+        "Disgustada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000100.png": {
+        "Neutral_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLE_40000101.png": {
+        "Neutral_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000102.png": {
+        "Neutral_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000200.png": {
+        "Avergonzada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLE_40000201.png": {
+        "Avergonzada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000202.png": {
+        "Avergonzada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000300.png": {
+        "Alegre_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLE_40000301.png": {
+        "Alegre_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000302.png": {
+        "Alegre_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000400.png": {
+        "Enojada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca cerrada."
+    },
+    "CRS_JLE_40000401.png": {
+        "Enojada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000402.png": {
+        "Enojada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000500.png": {
+        "Preocupada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JLE_40000501.png": {
+        "Preocupada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000502.png": {
+        "Preocupada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000600.png": {
+        "Cansada_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca cerrada."
+    },
+    "CRS_JLE_40000601.png": {
+        "Cansada_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000602.png": {
+        "Cansada_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JLE_40000700.png": {
+        "Triste_boca_cerrada(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JLE_40000701.png": {
+        "Triste_boca_entreabierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JLE_40000702.png": {
+        "Triste_boca_abierta(Primer plano)": "Primer plano (zoom cercano), cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JLF_00000001.png": {
+        "De espaldas(Primer plano)": "Primer plano (zoom cercano), vista de espaldas con bata de laboratorio, mostrando su larga cabellera castaña."
+    },
+    "CRS_JMD_40000100.png": {
+        "Neutral_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JMD_40000101.png": {
+        "Neutral_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000102.png": {
+        "Neutral_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000200.png": {
+        "Alegre_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca cerrada."
+    },
+    "CRS_JMD_40000201.png": {
+        "Alegre_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000202.png": {
+        "Alegre_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000300.png": {
+        "Enojada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca cerrada."
+    },
+    "CRS_JMD_40000301.png": {
+        "Enojada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000302.png": {
+        "Enojada_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000400.png": {
+        "Cansada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca cerrada."
+    },
+    "CRS_JMD_40000401.png": {
+        "Cansada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000402.png": {
+        "Cansada_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000500.png": {
+        "Preocupada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JMD_40000501.png": {
+        "Preocupada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000502.png": {
+        "Preocupada_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000600.png": {
+        "Feliz_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca cerrada."
+    },
+    "CRS_JMD_40000601.png": {
+        "Feliz_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000602.png": {
+        "Feliz_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000700.png": {
+        "Molesta_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca cerrada."
+    },
+    "CRS_JMD_40000701.png": {
+        "Molesta_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000702.png": {
+        "Molesta_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000800.png": {
+        "Avergonzada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JMD_40000801.png": {
+        "Avergonzada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000802.png": {
+        "Avergonzada_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000900.png": {
+        "Sorprendida_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca cerrada."
+    },
+    "CRS_JMD_40000901.png": {
+        "Sorprendida_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000902.png": {
+        "Sorprendida_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000a00.png": {
+        "Triste_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JMD_40000a01.png": {
+        "Triste_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000a02.png": {
+        "Triste_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000b00.png": {
+        "Seria_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JMD_40000b01.png": {
+        "Seria_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000b02.png": {
+        "Seria_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JMD_40000c00.png": {
+        "Disgustada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JMD_40000c01.png": {
+        "Disgustada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JMD_40000c02.png": {
+        "Disgustada_boca_abierta(Plano medio)": "Plano medio, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000100.png": {
+        "Neutral_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JME_40000101.png": {
+        "Neutral_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000102.png": {
+        "Neutral_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000200.png": {
+        "Avergonzada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JME_40000201.png": {
+        "Avergonzada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000202.png": {
+        "Avergonzada_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000300.png": {
+        "Alegre_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JME_40000301.png": {
+        "Alegre_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000302.png": {
+        "Alegre_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000400.png": {
+        "Enojada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca cerrada."
+    },
+    "CRS_JME_40000401.png": {
+        "Enojada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000402.png": {
+        "Enojada_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000500.png": {
+        "Preocupada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JME_40000501.png": {
+        "Preocupada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000502.png": {
+        "Preocupada_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000600.png": {
+        "Cansada_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca cerrada."
+    },
+    "CRS_JME_40000601.png": {
+        "Cansada_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000602.png": {
+        "Cansada_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JME_40000700.png": {
+        "Triste_boca_cerrada(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JME_40000701.png": {
+        "Triste_boca_entreabierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JME_40000702.png": {
+        "Triste_boca_abierta(Plano medio)": "Plano medio, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JMF_00000001.png": {
+        "De espaldas(Plano medio)": "Plano medio, vista de espaldas con bata de laboratorio, mostrando su larga cabellera castaña."
+    },
+    "CRS_JSD_40000100.png": {
+        "Neutral_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSD_40000101.png": {
+        "Neutral_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000102.png": {
+        "Neutral_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000200.png": {
+        "Alegre_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca cerrada."
+    },
+    "CRS_JSD_40000201.png": {
+        "Alegre_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000202.png": {
+        "Alegre_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, guiñando un ojo y con una sonrisa leve, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000300.png": {
+        "Enojada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca cerrada."
+    },
+    "CRS_JSD_40000301.png": {
+        "Enojada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000302.png": {
+        "Enojada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio o enojado, con cejas fruncidas, ojos abiertos y gesto de disgusto, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000400.png": {
+        "Cansada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca cerrada."
+    },
+    "CRS_JSD_40000401.png": {
+        "Cansada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000402.png": {
+        "Cansada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro desinteresado o cansado, con párpados caídos, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000500.png": {
+        "Preocupada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSD_40000501.png": {
+        "Preocupada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000502.png": {
+        "Preocupada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro preocupado o dubitativo, con cejas inclinadas hacia el centro y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000600.png": {
+        "Feliz_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca cerrada."
+    },
+    "CRS_JSD_40000601.png": {
+        "Feliz_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000602.png": {
+        "Feliz_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro alegre, con ojos cerrados sonriendo, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000700.png": {
+        "Molesta_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca cerrada."
+    },
+    "CRS_JSD_40000701.png": {
+        "Molesta_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000702.png": {
+        "Molesta_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de molestia desafiante, con cejas fruncidas, ojos abiertos y mirada fija, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000800.png": {
+        "Avergonzada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSD_40000801.png": {
+        "Avergonzada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000802.png": {
+        "Avergonzada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro avergonzado o tímido, con un leve sonrojo en las mejillas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000900.png": {
+        "Sorprendida_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca cerrada."
+    },
+    "CRS_JSD_40000901.png": {
+        "Sorprendida_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000902.png": {
+        "Sorprendida_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro sorprendido o asombrado, con ojos muy abiertos y cejas elevadas, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000a00.png": {
+        "Triste_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JSD_40000a01.png": {
+        "Triste_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000a02.png": {
+        "Triste_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000b00.png": {
+        "Seria_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSD_40000b01.png": {
+        "Seria_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000b02.png": {
+        "Seria_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro serio y pensativo, con mirada concentrada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSD_40000c00.png": {
+        "Disgustada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSD_40000c01.png": {
+        "Disgustada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSD_40000c02.png": {
+        "Disgustada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de frente con bata de laboratorio y brazos a los lados. Muestra un rostro de disgusto o incomodidad, con la boca ligeramente ondulada y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000100.png": {
+        "Neutral_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSE_40000101.png": {
+        "Neutral_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000102.png": {
+        "Neutral_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro neutro y calmado, con ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000200.png": {
+        "Avergonzada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSE_40000201.png": {
+        "Avergonzada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000202.png": {
+        "Avergonzada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro tímido o avergonzado, con un ligero sonrojo y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000300.png": {
+        "Alegre_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSE_40000301.png": {
+        "Alegre_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000302.png": {
+        "Alegre_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro alegre, con una leve sonrisa y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000400.png": {
+        "Enojada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca cerrada."
+    },
+    "CRS_JSE_40000401.png": {
+        "Enojada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000402.png": {
+        "Enojada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro enojado, con cejas fruncidas, ojos abiertos y gesto serio, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000500.png": {
+        "Preocupada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca cerrada."
+    },
+    "CRS_JSE_40000501.png": {
+        "Preocupada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000502.png": {
+        "Preocupada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro preocupado o triste, con cejas compungidas y ojos abiertos, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000600.png": {
+        "Cansada_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca cerrada."
+    },
+    "CRS_JSE_40000601.png": {
+        "Cansada_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000602.png": {
+        "Cansada_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro cansado o melancólico, con párpados semi-cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JSE_40000700.png": {
+        "Triste_boca_cerrada(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca cerrada."
+    },
+    "CRS_JSE_40000701.png": {
+        "Triste_boca_entreabierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca entreabierta (hablando)."
+    },
+    "CRS_JSE_40000702.png": {
+        "Triste_boca_abierta(Plano lejano)": "Plano lejano, cuerpo de medio lado con los brazos cruzados y la cabeza inclinada. Muestra un rostro triste o resignado, con ojos cerrados, y la boca abierta (hablando)."
+    },
+    "CRS_JSF_00000001.png": {
+        "De espaldas(Plano lejano)": "Plano lejano, vista de espaldas con bata de laboratorio, mostrando su larga cabellera castaña."
+    }
+}

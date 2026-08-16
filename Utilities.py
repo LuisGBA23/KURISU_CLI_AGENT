@@ -2,7 +2,7 @@ import json
 import random
 from pathlib import Path
 
-def open_file(ruta: str, do= 'read_txt', modo= 'r', values_to_dump= None): 
+def open_file(ruta: str, do= 'read_txt', modo= 'r', values_to_dump= None) ->  str | list | dict | None: 
     '''
         ## Función para abrir un archivo y leerlo o escribirlo según el parámetro do  
         **do**= 'read_txt' (predeterminado), 'read_json', 'json_dump'  
@@ -61,7 +61,7 @@ def set_attribute(attribute: str, value: str, conf_file: str) -> None:
     values_to_dump= b_conf
     )
 
-def get_path_to_parent_dict(file_var, *extras: str) -> str: 
+def get_path_to_parent_dict(file_var, *extras: str) -> Path | str: 
     '''
         ## Regresa el directorio padre del archivo actual y agregados (si *extras)  
         ### (**file_var** siempre debe pasarse con el valor *\\_\\_file__*)  

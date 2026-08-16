@@ -6,7 +6,8 @@ import sys
 import platform
 import time
 from colorama import Fore, Style
-import Utilities, Chats_history, Functions, Web_functions
+import Utilities, Chats_history, Voice_comms
+import Functions, Web_functions, Spotify_functions
 
 load_dotenv()
 API_LIST= os.getenv("GEMINI_KEYS").split(',')
@@ -22,7 +23,9 @@ REGISTRY= [
     Functions.do_a_commit,
     Web_functions.busqueda_internet,
     Web_functions.make_http_request,
-    Web_functions.html_parser
+    Web_functions.html_parser,
+    Spotify_functions.playback_manage,
+    Spotify_functions.search_and_start_song,
 ]
 
 def cargar_conf(): 
@@ -46,6 +49,7 @@ def get_context() -> dict[str, str]:
     }
     return context
 
+start_on_voice= False
 while True:
     try:
         chosen_api= Utilities.elegir_api(API_LIST)
@@ -58,8 +62,16 @@ while True:
             config= config_mod
         )
 
-        inp= input(Fore.CYAN + "(Christina) >> " + Fore.RESET)
-        if inp.lower() == "byebye": 
+        inp= input(Fore.CYAN + "(Christina) >> " + Fore.RESET) if not start_on_voice else 'voz'
+        if inp.lower() in ["voice", "voz"]: 
+            print(Fore.CYAN + "(Christina VOICE) >>" + Fore.RESET, end= ' ')
+            inp= Voice_comms.start_voice()
+            if inp.lower() == 'texto': 
+                start_on_voice= False
+                continue
+            print(inp)
+            start_on_voice= True
+        elif inp.lower() == "byebye": 
             print(Fore.RESET)
             break
         elif inp.lower() in ["clear", "clear history", "clean", "limpiar"]:

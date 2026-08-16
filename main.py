@@ -46,6 +46,7 @@ def get_context() -> dict[str, str]:
         "sistema_operativo" : f"{sys.platform} {platform.release()}",
         "arquitectura_cpu" : platform.machine(),
         "entorno_shell" : os.getenv('SHELL') if sys.platform != 'win32' else os.getenv('COMSPEC'),
+        "nota" : "Si el nombre de una cancion está en japonés romanizado, tradúcelo a japonés con hiragana o katakana antes de buscarlo en Spotify."
     }
     return context
 

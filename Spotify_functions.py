@@ -86,7 +86,7 @@ def update_cached_songs():
                 tracks.extend(results['items'])
 
         songs_on_playlist= {}
-        for idx, item in enumerate(tracks): 
+        for item in tracks: 
             song= item.get('item')
             name= song.get('name') if song else None
             uri= song.get('uri') if song else None

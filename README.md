@@ -1,6 +1,6 @@
 # Kurisu CLI Agent
 
-Este repositorio contiene un agente de inteligencia artificial interactivo basado en línea de comandos, diseñado para interactuar con modelos de lenguaje avanzados de Google (Gemini). El agente está personalizado para ofrecer asistencia en tareas técnicas, gestión de archivos, ejecución de comandos del sistema y control de versiones Git, todo ello manteniendo un contexto conversacional persistente.
+Este repositorio contiene un agente de inteligencia artificial interactivo basado en línea de comandos, diseñado para interactuar con modelos de lenguaje avanzados de Google (Gemini). El agente está personalizado para ofrecer asistencia en tareas técnicas, gestión de archivos, ejecución de comandos del sistema, control de versiones Git, y ahora incluye funciones mejoradas para interacción web y gestión de medios, todo ello manteniendo un contexto conversacional persistente.
 
 ## Características Principales
 
@@ -8,6 +8,8 @@ Este repositorio contiene un agente de inteligencia artificial interactivo basad
 *   **Ejecución de Comandos del Sistema:** Capacidad para ejecutar comandos de shell directamente en el sistema operativo, con mecanismos de seguridad para comandos que requieren privilegios elevados (`sudo`).
 *   **Gestión y Edición de Archivos:** Herramientas para leer, escribir y realizar ediciones avanzadas en archivos (añadir contenido, insertar/borrar líneas, reemplazar texto).
 *   **Control de Versiones Git:** Integración para realizar operaciones de `commit` en repositorios Git, facilitando la gestión del código fuente.
+*   **Control de Música (Spotify):** Permite gestionar la reproducción de Spotify, incluyendo pausar, reanudar, saltar a la canción anterior/siguiente, y buscar/reproducir pistas específicas. Incluye una lógica para optimizar la búsqueda de canciones con nombres en japonés romanizado.
+*   **Investigación y Extracción de Información Web:** Capacidad para realizar búsquedas en internet, extraer letras de canciones de sitios web y sintetizar información de páginas para responder a consultas complejas.
 *   **Personalidad Definida:** Configurado con instrucciones de sistema para guiar el comportamiento y tono del agente.
 *   **Gestión de Claves API:** Soporte para múltiples claves API de Gemini.
 *   **Entorno Aislado:** Utiliza un entorno virtual de Python (`venv`) para gestionar las dependencias del proyecto de forma limpia y aislada.
@@ -19,8 +21,10 @@ Este repositorio contiene un agente de inteligencia artificial interactivo basad
 *   **`python-dotenv`:** Para la gestión segura de variables de entorno (claves API).
 *   **`colorama`:** Para estilizar la salida de la terminal.
 *   **`subprocess`:** Para la ejecución de comandos del sistema.
-*   **`BeautifulSoup4` y `requests`:** (Detectadas como dependencias, útiles para futuras capacidades de web scraping/búsqueda).
-*   **`selenium` y `webdriver_manager`:** (Detectadas como dependencias, útiles para automatización web).
+*   **`requests`:** Para realizar solicitudes HTTP y obtener contenido de páginas web.
+*   **`BeautifulSoup4`:** Para el parseo y extracción de datos de documentos HTML.
+*   **`spotipy`:** Biblioteca de cliente de Python para la API de Spotify Web, utilizada para el control de reproducción y búsqueda de canciones.
+*   **`selenium` y `webdriver_manager`:** (Detectadas como dependencias, útiles para automatización web, aunque no se hayan implementado completamente para la interacción actual).
 
 ## Configuración y Ejecución
 
@@ -46,10 +50,12 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
     ```
 
 4.  **Configurar Variables de Entorno:**
-    Crea un archivo `.env` en la raíz del directorio del proyecto y añade tus claves API de Google Gemini.
+    Crea un archivo `.env` en la raíz del directorio del proyecto y añade tus claves API de Google Gemini y las credenciales de Spotify (si aplica para futuras integraciones más profundas).
     ```
     # .env
     GEMINI_KEYS="TU_CLAVE_API_1,TU_CLAVE_API_2" # Puedes añadir múltiples claves separadas por comas
+    # SPOTIPY_CLIENT_ID="TU_CLIENT_ID_SPOTIFY"
+    # SPOTIPY_CLIENT_SECRET="TU_CLIENT_SECRET_SPOTIFY"
     ```
 
 5.  **Configurar Personalidad del Agente y Modelo:**
@@ -70,6 +76,7 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
 
 *   `main.py`: Punto de entrada principal y orquestador del agente.
 *   `Functions.py`: Contiene las implementaciones de las herramientas que el agente puede invocar (ejecución de comandos, manipulación de archivos, Git commits).
+*   `Web_functions.py`: Módulo que encapsula las funciones relacionadas con la interacción web (búsqueda en internet, parseo de HTML).
 *   `Chats_history.py`: Módulo para la carga y guardado del historial de conversaciones.
 *   `Utilities.py`: Funciones de utilidad generales y auxiliares.
 *   `configs/`: Directorio que contiene archivos de configuración (parámetros del modelo, instrucción de sistema).
@@ -81,10 +88,10 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
 
 ## NOTA:  
 
-*   Si quieres ejecutar este agente desde cualquier parte en la     terminal, crea un archivo .bat como este:  
+*   Si quieres ejecutar este agente desde cualquier parte en la terminal, crea un archivo .bat como este:  
     ```bash
     @echo off
-    
+
     call *ruta absoluta al script de activación del entorno virtual* 
     python *ruta absoluta al archivo main.py*
     ```  

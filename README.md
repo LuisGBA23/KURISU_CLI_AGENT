@@ -93,6 +93,7 @@ Sigue estos pasos para configurar y ejecutar el Kurisu CLI Agent en tu entorno l
     @echo off
 
     call *ruta absoluta al script de activación del entorno virtual* 
+    python *ruta absoluta al archivo Spotify_functions.py* (Para mantener actualizado el json de playlists)
     python *ruta absoluta al archivo main.py*
     ```  
     Y guardalo dentro de la carpeta C:\Windows (requiere permisos de administrador) con un nombre fácil ej: *kurisu*. Ahora puedes llamar al agente escribiendo el nombre del script .bat en la terminal

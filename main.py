@@ -1,6 +1,7 @@
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
+from winotify import Notification, audio
 import os
 import sys
 import platform
@@ -16,6 +17,7 @@ if not API_LIST:
 CONFIG_PATH= Utilities.get_path_to_parent_dict(__file__, 'configs', 'Kurisu_config.json')
 SYS_INST_PATH= Utilities.get_path_to_parent_dict(__file__, 'configs', 'system_instruction.md')
 HISTORIAL_PATH= Utilities.get_path_to_parent_dict(__file__, 'configs', 'historial.pkl')
+KURISU_ICON_PATH= Utilities.get_path_to_parent_dict(__file__, 'public', 'Kurisu_icon.png')
 REGISTRY= [
     Functions.command_exec, 
     Functions.work_with_files, 
@@ -98,6 +100,15 @@ while True:
                     time.sleep(0.01)
         already_printed_part= ""
         print('\n'+Style.RESET_ALL)
+        finished= Notification(
+            app_id= 'Christina',
+            title= 'Finished:',
+            msg= inp,
+            duration= 'short',
+            icon= KURISU_ICON_PATH
+        )
+        finished.set_audio(sound= audio.Default, loop= False)
+        finished.show()
 
         historial_act= chat.get_history()
         hist= historial_act

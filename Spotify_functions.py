@@ -3,6 +3,8 @@ from spotipy.oauth2 import SpotifyOAuth
 import os
 from dotenv import load_dotenv
 import Utilities
+import time
+import threading
 
 load_dotenv()  # Carga las variables de entorno desde el archivo .env
 CLIENT_id= os.getenv("CLIENT_ID")
@@ -11,12 +13,16 @@ REDIRECT_URI= os.getenv("REDIRECT_URI")
 PLAYLIST_IDs= os.getenv("PLAYLIST_IDS").split(',')
 if not CLIENT_id or not SECRET_CLIENT or not REDIRECT_URI or not PLAYLIST_IDs:
     raise ValueError("Una o más variables de entorno no encontradas en .env")
+CACHE_PATH= Utilities.get_path_to_parent_dict(__file__, '.cache')
+
+its_all_ready= False
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id= CLIENT_id,
     client_secret= SECRET_CLIENT,
     redirect_uri= REDIRECT_URI,
-    scope= "user-modify-playback-state user-read-playback-state"
+    scope= "user-modify-playback-state user-read-playback-state",
+    cache_path= CACHE_PATH
 ))
 
 def obtener_disp_activo():
@@ -73,6 +79,8 @@ def search_and_start_song(search: str) -> str:
         return f"Reproduciendo {song_data['name']} -> artist: {song_data['artist']} (playlist: {song_data['on_playlist']['name']})"
 
 def update_cached_songs(): 
+    global its_all_ready
+
     fac= {}
     for pid in PLAYLIST_IDs:
         playlist= sp.playlist(pid)
@@ -104,5 +112,23 @@ def update_cached_songs():
         modo= 'w',
         values_to_dump= fac)
 
+    its_all_ready= True
+
 if __name__ == "__main__":
-    update_cached_songs()
+    hilo= threading.Thread(target= update_cached_songs)
+    hilo.start()
+
+    print("Making some shit up, wait a few secs", end= '')
+    time.sleep(0.5)
+    while True:
+        if its_all_ready:
+            print('\r\033[K', end= '')
+            break
+
+        for i in range(3):
+            print('.', end= '', flush= True)
+            time.sleep(0.3)
+
+        print('\b\b\b   ', end= '', flush= True)
+        print('\b\b\b', end= '')
+        time.sleep(0.3)

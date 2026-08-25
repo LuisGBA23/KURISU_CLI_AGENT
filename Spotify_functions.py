@@ -104,4 +104,5 @@ def update_cached_songs():
         modo= 'w',
         values_to_dump= fac)
 
-update_cached_songs()
+if __name__ == "__main__":
+    update_cached_songs()

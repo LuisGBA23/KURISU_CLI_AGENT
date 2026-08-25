@@ -107,7 +107,7 @@ while True:
             duration= 'short',
             icon= KURISU_ICON_PATH
         )
-        finished.set_audio(sound= audio.Default, loop= False)
+        finished.set_audio(sound= audio.Reminder, loop= False)
         finished.show()
 
         historial_act= chat.get_history()

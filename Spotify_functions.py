@@ -118,7 +118,7 @@ if __name__ == "__main__":
     hilo= threading.Thread(target= update_cached_songs)
     hilo.start()
 
-    print("Making some shit up, wait a few secs", end= '')
+    print("Configurando unas cosas por ahí we", end= '')
     time.sleep(0.5)
     while True:
         if its_all_ready:

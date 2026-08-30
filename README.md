@@ -5,11 +5,14 @@ Este repositorio contiene un agente de inteligencia artificial interactivo basad
 ## Características Principales
 
 *   **Interacción Conversacional:** Permite una comunicación fluida con el modelo de lenguaje, manteniendo el contexto de la conversación a través del historial.
-*   **Ejecución de Comandos del Sistema:** Capacidad para ejecutar comandos de shell directamente en el sistema operativo, con mecanismos de seguridad para comandos que requieren privilegios elevados (`sudo`).
-*   **Gestión y Edición de Archivos:** Herramientas para leer, escribir y realizar ediciones avanzadas en archivos (añadir contenido, insertar/borrar líneas, reemplazar texto).
-*   **Control de Versiones Git:** Integración para realizar operaciones de `commit` en repositorios Git, facilitando la gestión del código fuente.
-*   **Control de Música (Spotify):** Permite gestionar la reproducción de Spotify, incluyendo pausar, reanudar, saltar a la canción anterior/siguiente, y buscar/reproducir pistas específicas. Incluye una lógica para optimizar la búsqueda de canciones con nombres en japonés romanizado.
-*   **Investigación y Extracción de Información Web:** Capacidad para realizar búsquedas en internet, extraer letras de canciones de sitios web y sintetizar información de páginas para responder a consultas complejas.
+*   **Ejecución de Comandos del Sistema:** Capacidad para ejecutar comandos de shell directamente en el sistema operativo (`command_exec`).
+*   **Gestión y Edición de Archivos:** Herramientas para leer/escribir (`work_with_files`) y realizar ediciones avanzadas (`specific_edit_files`) en archivos (añadir contenido, insertar/borrar líneas, reemplazar texto).
+*   **Control de Versiones Git:** Integración para realizar operaciones de `commit` en repositorios Git (`do_a_commit`), facilitando la gestión del código fuente.
+*   **Control de Música (Spotify):** Permite gestionar la reproducción de Spotify (`playback_manage`), incluyendo pausar, reanudar, saltar a la canción anterior/siguiente, y buscar/reproducir pistas específicas (`search_and_start_song`). Incluye una lógica para optimizar la búsqueda de canciones con nombres en japonés romanizado.
+*   **Interacción Web Avanzada:**
+    *   **Búsqueda en Internet:** Realiza búsquedas web para obtener información (`busqueda_internet`).
+    *   **Solicitudes HTTP:** Permite realizar solicitudes HTTP a URLs específicas (`make_http_request`).
+    *   **Parseo de HTML:** Extrae texto y enlaces de contenido HTML (`html_parser`).
 *   **Personalidad Definida:** Configurado con instrucciones de sistema para guiar el comportamiento y tono del agente.
 *   **Gestión de Claves API:** Soporte para múltiples claves API de Gemini.
 *   **Entorno Aislado:** Utiliza un entorno virtual de Python (`venv`) para gestionar las dependencias del proyecto de forma limpia y aislada.

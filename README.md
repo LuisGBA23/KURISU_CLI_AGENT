@@ -27,7 +27,6 @@ Este repositorio contiene un agente de inteligencia artificial interactivo basad
 *   **`requests`:** Para realizar solicitudes HTTP y obtener contenido de páginas web.
 *   **`BeautifulSoup4`:** Para el parseo y extracción de datos de documentos HTML.
 *   **`spotipy`:** Biblioteca de cliente de Python para la API de Spotify Web, utilizada para el control de reproducción y búsqueda de canciones.
-*   **`selenium` y `webdriver_manager`:** (Detectadas como dependencias, útiles para automatización web, aunque no se hayan implementado completamente para la interacción actual).
 
 ## Configuración y Ejecución
 

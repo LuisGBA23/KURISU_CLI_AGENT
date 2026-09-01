@@ -1,11 +1,3 @@
-"""
-main.py
-
-Este archivo es el punto de entrada principal para el Agente de IA CLI de Alto Rendimiento (Kurisu CLI Agent).
-Gestiona la carga de configuración, inicializa el modelo de IA, maneja la interacción del usuario
-(entrada de texto y voz), procesa comandos especiales y guarda el historial de chat.
-También incluye mecanismos para la gestión de errores de la API y la notificación de finalización de tareas.
-"""
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
